@@ -10,7 +10,7 @@ For this example, I am using Processing 2.1 and we will be editing the Processin
 <br />
 The first thing we need to do is navigate to the Processing package contents. Right click on your Processing.App and click on `Show Package Contents`.
 This will take us to the brains of Processing, where all the juices are stored.
-***
+
 
 ![Alt image](images/OpenpackageContents.jpg)
 Once we open the Package Contents, we can see the way in which Processing is organized internally. We can find all the images and text files in which the IDE is designed with. We will begin to change the physical appearence of Processing, primarily the colors of the IDE.  Open the file `theme.txt` found under `Contents/Java/lib/`. I use TextEdit to edit the file, though you can use whatever editor you want. 
@@ -100,17 +100,17 @@ editor.brackethighlight = true
 editor.brackethighlight.color = #006699
 ```
 </pre></code>
-***
+
 
 ![Alt image](images/tab.png)<br />
-***
+
 
 The theme.txt file is very straight forward and you should be able to edit it however you like. I like very simple and soft colors in my text editors. Personally, looking at a nice layout makes me happy!
-***
+
 ##Banner and Buttons
 By default, Processing has a mesh banner and button interface that is also editable. Next, we will edit those images by navigating to `Contents/Java/modes/java/theme`. There, we see the four images that compose the top banner of the Processing IDE. We can go ahead and edit those with an image-editing software like GIMP or Photoshop. I replaced the image in the `mode.png` file with just a white background, to minimalize the look of my Processing IDE. I also removed the dots under the buttons when they are in inactive status. You can add custom images for the buttons as long as you stay within the demensions of each button in the `buttons.png` file. I suggest making a copy of the original images in case that you want to revert to your changes. 
 ![Alt image](images/theme.png)
-***
+
 ##Final Version
 I made this version for this tutorial, I hope that you can now customize your own PDE!
 
