@@ -102,5 +102,14 @@ editor.brackethighlight.color = #006699
 
 ![Alt image](images/tab.png)<br />
 
-I like very simple and soft colors in my text editors. Personally, looking at a nice layout makes me happy!
+The theme.txt file is very straight forward and you should be able to edit it however you like. I like very simple and soft colors in my text editors. Personally, looking at a nice layout makes me happy!
+##Banner and Buttons
+By default, Processing has a mesh banner and button interface that is also editable. Next, we will edit those images by navigating to `Contents/Java/modes/java/theme`. There, we see the four images that compose the top banner of the Processing IDE. We can go ahead and edit those with an image-editing software like GIMP or Photoshop. I replaced the image in the `mode.png` file with just a white background, to minimalize the look of my Processing IDE. I also removed the dots under the buttons when they are in inactive status. You can add custom images for the buttons as long as you stay within the demensions of each button in the `buttons.png` file. I suggest making a copy of the original images in case that you want to revert to your changes. 
+
+##Final Version
+I made this version for this tutorial, I hope that you can now customize your own PDE!
+
+![Alt image](images/final.png)
+![Alt image](images/error.png)
+![Alt image](images/finalIDE.png)
 
