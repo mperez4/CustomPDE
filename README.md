@@ -14,7 +14,7 @@ This will take us to the brains of Processing, where all the juices are stored.
 ![Alt image](images/OpenpackageContents.jpg)
 Once we open the Package Contents, we can see the way in which Processing is organized internally. We can find all the images and text files in which the IDE is designed with. We will begin to change the physical appearence of Processing, primarily the colors of the IDE.  Open the file `theme.txt` found under `Contents/Java/lib/`. I use TextEdit to edit the file, though you can use whatever editor you want. 
 ![Alt image](images/layout.png)
-This theme.txt file contains all the colors used to make the default IDE, and we can simply change those colors by pasting in our preferences(colors are in [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) format). I used [this](http://www.colorpicker.com/) color picker to figure out which colors I liked and copied and pasted the #hex code. This is my current settings for my PDE.
+This theme.txt file contains all the colors used to make the default IDE, and we can simply change those colors by pasting in our preferences(colors are in [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) format). I used [this](http://www.colorpicker.com/) color picker to figure out which colors I liked and copied and pasted the #hex code. This is my current settings for my PDE:
 <pre><code>
 ```
 # STATUS
@@ -99,4 +99,8 @@ editor.brackethighlight = true
 editor.brackethighlight.color = #006699
 ```
 </pre></code>
+
+![Alt image](images/tab.png)<br />
+
+I like very simple and soft colors in my text editors. Personally, looking at a nice layout makes me happy!
 
