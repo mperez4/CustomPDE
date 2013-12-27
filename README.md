@@ -15,7 +15,9 @@ This will take us to the brains of Processing, where all the juices are stored.
 Once we open the Package Contents, we can see the way in which Processing is organized internally. We can find all the images and text files in which the IDE is designed with. We will begin to change the physical appearence of Processing, primarily the colors of the IDE.  Open the file `theme.txt` found under `Contents/Java/lib/`. I use TextEdit to edit the file, though you can use whatever editor you want. 
 ![Alt image](images/layout.png)
 This theme.txt file contains all the colors used to make the default IDE, and we can simply change those colors by pasting in our preferences(colors are in [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) format). I used [this](http://www.colorpicker.com/) color picker to figure out which colors I liked and copied and pasted the #hex code. This is my current settings for my PDE.
-<pre><code># STATUS
+<pre><code>
+```
+# STATUS
 # Status messages (1 file added to sketch, errors, etc)
 status.notice.fgcolor = #000000
 status.notice.bgcolor = #DBDBDB
@@ -95,6 +97,6 @@ editor.eolmarkers.color = #999999
 # bracket/brace highlighting
 editor.brackethighlight = true
 editor.brackethighlight.color = #006699
-
+```
 </pre></code>
 
